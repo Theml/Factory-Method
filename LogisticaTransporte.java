@@ -1,4 +1,4 @@
-public class LogisticaTransporte implements ILogistica {
+class LogisticaTransporte implements ILogistica {
 
     public String contratar() {
         return "Transporte contratado";
