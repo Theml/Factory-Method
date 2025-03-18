@@ -1,4 +1,4 @@
 public interface ILogistica {
-  String contratar();
-  String demitir();
+  String adicionar();
+  String remover();
 }
