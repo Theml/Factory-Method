@@ -1,10 +1,10 @@
 class LogisticaTransporte implements ILogistica {
 
-    public String contratar() {
-        return "Transporte contratado";
+    public String adicionar() {
+        return "Transporte adicionado";
     }
 
-    public String demitir() {
+    public String remover() {
         return "Transporte removido";
     }
 }
