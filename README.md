@@ -39,3 +39,18 @@ _IServico_ <|-- Servico2
 4. O uso de `Class` e `Object` sugere uma possível implementação onde a fábrica pode criar objetos dinamicamente com **reflexão** ou **metaprogramação**.  
 
 Esse diagrama representa bem o **Factory Method**, garantindo que a criação de objetos seja **desacoplada** do código cliente e facilitando a extensão do sistema.
+
+### Diagrama do Código Exemplo
+```mermaid
+classDiagram
+  class _ILogistica_
+  class Class
+  class Object
+  class LogisticaFactory
+  class LogisticaTransporte
+
+_ILogistica_ <.. LogisticaFactory
+Object <.. LogisticaFactory
+Class <.. LogisticaFactory
+_ILogistica_ <|-- LogisticaTransporte
+```
