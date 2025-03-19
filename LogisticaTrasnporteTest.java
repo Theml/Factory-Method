@@ -1,13 +1,13 @@
 class LogisticaTransporteTeste {
  
  @Test
- Void deveContratarTransporte() {
- ILogistica logistica = LogisticaFactory.obterLogica("Transporte");
+ Void deveAdicionarTransporte() {
+ ILogistica logistica = LogisticaFactory.obterLogistica("Transporte");
 assertEquals("Transporte contratado", logica.adicionar());
 
 @Test
- Void deveDemitirTransporte() {
- ILogistica logistica = LogisticaFactory.obterLogica("Transporte");
+ Void deveRemoverTransporte() {
+ ILogistica logistica = LogisticaFactory.obterLogistica("Transporte");
 assertEquals("Transporte removido", logica.remover());
 
 }
